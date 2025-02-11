@@ -1,0 +1,31 @@
+@Laba5_HostAddress = http://localhost:5110
+###
+
+GET {{Laba5_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{Laba5_HostAddress}}/api/products/{id}
+Accept: application/json
+
+###
+
+GET {{Laba5_HostAddress}}/search/laba5/{name}
+Accept: application/json
+
+###
+
+GET {{Laba5_HostAddress}}/api/products/search/price/{price}
+Accept: application/json
+
+###
+
+GET {{Laba5_HostAddress}}/api/products/search/name/{name}
+Accept: application/json
+
+###
+
+DELETE {{Laba5_HostAddress}}/api/products/{id}
+
+
